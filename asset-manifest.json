@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CBPC-1026-FinalPres-Website/static/css/main.073c9b0a.css",
+    "main.js": "/CBPC-1026-FinalPres-Website/static/js/main.be1a4f3a.js",
+    "static/js/787.b47d8c00.chunk.js": "/CBPC-1026-FinalPres-Website/static/js/787.b47d8c00.chunk.js",
+    "service-worker.js": "/CBPC-1026-FinalPres-Website/service-worker.js",
+    "static/media/logo.svg": "/CBPC-1026-FinalPres-Website/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/CBPC-1026-FinalPres-Website/index.html",
+    "main.073c9b0a.css.map": "/CBPC-1026-FinalPres-Website/static/css/main.073c9b0a.css.map",
+    "main.be1a4f3a.js.map": "/CBPC-1026-FinalPres-Website/static/js/main.be1a4f3a.js.map",
+    "787.b47d8c00.chunk.js.map": "/CBPC-1026-FinalPres-Website/static/js/787.b47d8c00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.be1a4f3a.js"
+  ]
+}
