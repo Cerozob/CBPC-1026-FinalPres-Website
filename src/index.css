@@ -57,5 +57,37 @@ a {
 }
 
 nav {
+	background-color: #21222c !important;
+}
+
+#navbarbutton {
+	background-color: hotpink !important;
+}
+
+.card {
 	background-color: #282a36 !important;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	margin: 1rem;
+	height: 90%;
+}
+
+a:hover {
+	color: white !important;
+}
+
+#text {
+	color: white;
+}
+
+icon.material-icons-round {
+	align-items: center;
+	justify-content: center;
+	color: hotpink;
+}
+div.card-footer {
+	background-color: #282a36;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

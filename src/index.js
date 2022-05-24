@@ -15,16 +15,15 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar bg="282a36" expand="lg" sticky="top">
+    <Navbar bg="#21222c" expand="lg" sticky="top">
       <Container id="navContainer">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle id="navbarbutton" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" >
             <Nav.Link href="/CBPC-1026-FinalPres-Website/home">{"Introducción"}</Nav.Link>
             <Nav.Link href="/CBPC-1026-FinalPres-Website/ayc">{"Arte & Ciencia"}</Nav.Link>
             <Nav.Link href="/CBPC-1026-FinalPres-Website/case">{"Un caso específico"}</Nav.Link>
             <Nav.Link href="/CBPC-1026-FinalPres-Website/about">{"Desarrollo del producto"}</Nav.Link>
-
           </Nav>
         </Navbar.Collapse>
       </Container>
