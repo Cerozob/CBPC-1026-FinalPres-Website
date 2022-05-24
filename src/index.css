@@ -1,0 +1,61 @@
+body,
+h4 {
+	margin: 0;
+	font-family: "Tenorite", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #282a36 !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.navContainer {
+	display: flex;
+	width: fit-content;
+	align-items: center;
+	align-content: center;
+	padding: 0.5rem;
+	background-color: #fafafa;
+	border-bottom: 1px solid #eaeaea;
+}
+
+p,
+li,
+a {
+	font-family: "Tenorite";
+	text-align: justify;
+	font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 700;
+	text-align: center;
+	font-size: 2.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+p,
+li,
+a,
+h1,
+h2,
+h3,
+h4 {
+	color: #ffffff;
+}
+
+a {
+	color: hotpink !important;
+	font-weight: bold;
+}
+
+nav {
+	background-color: #282a36 !important;
+}
