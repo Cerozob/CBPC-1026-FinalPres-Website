@@ -6,23 +6,7 @@ function Home() {
     return (
         <Container>
             <Col>
-                <Row>
-                    <Card border="warning"
-                        bg={"danger"}
-                        key={"danger"}
-                        text={'dark'}
-                        style={{ width: '90rem' }}
-                        className="mb-2">
-                        <Card.Body>
-                            <Card.Title style={{ color: "black", textAlign: "center" }}>Aclaración - Sitio no terminado</Card.Title>
-                            <Card.Text style={{ color: "black", textAlign: "center" }}>
-                                Este sitio continuará cambiando hasta la fecha de entrega del producto (2022-Jun-07)
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    <br />
 
-                </Row>
                 <Row>
                     <h1>Introducción</h1>
                 </Row>
