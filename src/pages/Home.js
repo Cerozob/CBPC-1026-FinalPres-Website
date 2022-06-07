@@ -15,18 +15,18 @@ function Home() {
                 </Row>
                 <Row xs={1} md={2} xxl={4}>
                     <Col>
-                        <Card>
+                        <Card className="linkcard">
                             <Card.Title><h3><Link to="/CBPC-1026-FinalPres-Website/home">Introducción</Link></h3></Card.Title>
                             <Card.Body><p>Esta página, contiene esta misma descripción del sitio y los objetivos tanto del sitio, como entregable y como sitio web en general</p></Card.Body>
                             <Card.Footer>
                                 <icon className="material-icons-round">
                                     home
-                                </icon>\
+                                </icon>
                             </Card.Footer>
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className="linkcard">
                             <Card.Title><h3><Link to="/CBPC-1026-FinalPres-Website/ayc">{"Arte & Ciencia"}</Link></h3></Card.Title>
                             <Card.Body><p>la argumentación sobre los objetivos del entregable con respecto al curso</p></Card.Body>
                             <Card.Footer>
@@ -40,7 +40,7 @@ function Home() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className="linkcard">
                             <Card.Title><h3><Link to="/CBPC-1026-FinalPres-Website/case">Caso de estudio</Link></h3></Card.Title>
                             <Card.Body><p>el caso de estudio elegido descrito a detalle</p></Card.Body>
                             <Card.Footer>
@@ -51,7 +51,7 @@ function Home() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className="linkcard">
                             <Card.Title><h3><Link to="/CBPC-1026-FinalPres-Website/about">Desarrollo del producto</Link></h3></Card.Title>
                             <Card.Body><p>todo lo relacionado al proceso seguido para fabricar este entregable</p>le</Card.Body>
                             <Card.Footer>

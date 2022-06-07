@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Case from './pages/Case';
 import Ayc from './pages/Ayc';
+import Refs from './pages/Refs';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import { Navbar, Nav, Container, Row, Card } from 'react-bootstrap';
@@ -24,6 +25,7 @@ root.render(
             <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/ayc">{"Arte & Ciencia"}</Nav.Link>
             <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/case">Caso de estudio</Nav.Link>
             <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/about">Desarrollo del producto</Nav.Link>
+            <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/refs">Referencias</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -62,6 +64,9 @@ root.render(
 
         </Route>
         <Route exact path={"CBPC-1026-FinalPres-Website/about"} element={<About />}>
+
+        </Route>
+        <Route exact path={"CBPC-1026-FinalPres-Website/refs"} element={<Refs />}>
 
         </Route>
       </Routes>

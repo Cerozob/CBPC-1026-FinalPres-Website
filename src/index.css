@@ -64,13 +64,21 @@ nav {
 	background-color: hotpink !important;
 }
 
-.card {
+.linkcard {
 	background-color: #282a36 !important;
 	border-radius: 0.5rem;
 	padding: 1rem;
 	margin: 1rem;
 	height: 90%;
 	border-color: hotpink !important;
+}
+
+.mainCard {
+	background-color: #282a36 !important;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	margin: 1rem;
+	height: 90%;
 }
 
 a:hover {
@@ -91,4 +99,11 @@ div.card-footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.refcol {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
