@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/CBPC-1026-FinalPres-Website/static/css/main.e5bd0c49.css",
-    "main.js": "/CBPC-1026-FinalPres-Website/static/js/main.343d34e5.js",
+    "main.js": "/CBPC-1026-FinalPres-Website/static/js/main.ca1e41d7.js",
     "static/js/787.b47d8c00.chunk.js": "/CBPC-1026-FinalPres-Website/static/js/787.b47d8c00.chunk.js",
     "service-worker.js": "/CBPC-1026-FinalPres-Website/service-worker.js",
     "static/media/googlefonts.png": "/CBPC-1026-FinalPres-Website/static/media/googlefonts.ae55cdfc78ffa3d28b6d.png",
     "static/media/logo.svg": "/CBPC-1026-FinalPres-Website/static/media/logo.2d27ead7c10f774c5306bcf3c257a728.svg",
     "index.html": "/CBPC-1026-FinalPres-Website/index.html",
     "main.e5bd0c49.css.map": "/CBPC-1026-FinalPres-Website/static/css/main.e5bd0c49.css.map",
-    "main.343d34e5.js.map": "/CBPC-1026-FinalPres-Website/static/js/main.343d34e5.js.map",
+    "main.ca1e41d7.js.map": "/CBPC-1026-FinalPres-Website/static/js/main.ca1e41d7.js.map",
     "787.b47d8c00.chunk.js.map": "/CBPC-1026-FinalPres-Website/static/js/787.b47d8c00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5bd0c49.css",
-    "static/js/main.343d34e5.js"
+    "static/js/main.ca1e41d7.js"
   ]
 }
