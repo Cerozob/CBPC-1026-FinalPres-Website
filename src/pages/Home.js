@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row, CardGroup, Card } from 'react-bootstrap';
+import { Container, Col, Row, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
                             <Card.Title><h3><Link to="/CBPC-1026-FinalPres-Website/home">Introducción</Link></h3></Card.Title>
                             <Card.Body><p>Esta página, contiene esta misma descripción del sitio y los objetivos tanto del sitio, como entregable y como sitio web en general</p></Card.Body>
                             <Card.Footer>
-                                <icon class="material-icons-round">
+                                <icon className="material-icons-round">
                                     home
                                 </icon>\
                             </Card.Footer>
@@ -30,10 +30,10 @@ function Home() {
                             <Card.Title><h3><Link to="/CBPC-1026-FinalPres-Website/ayc">{"Arte & Ciencia"}</Link></h3></Card.Title>
                             <Card.Body><p>la argumentación sobre los objetivos del entregable con respecto al curso</p></Card.Body>
                             <Card.Footer>
-                                <icon class="material-icons-round">
+                                <icon className="material-icons-round">
                                     brush
                                 </icon>
-                                <icon class="material-icons-round">
+                                <icon className="material-icons-round">
                                     science
                                 </icon>
                             </Card.Footer>
@@ -44,7 +44,7 @@ function Home() {
                             <Card.Title><h3><Link to="/CBPC-1026-FinalPres-Website/case">Caso de estudio</Link></h3></Card.Title>
                             <Card.Body><p>el caso de estudio elegido descrito a detalle</p></Card.Body>
                             <Card.Footer>
-                                <icon class="material-icons-round">
+                                <icon className="material-icons-round">
                                     assignment
                                 </icon>
                             </Card.Footer>
@@ -55,7 +55,7 @@ function Home() {
                             <Card.Title><h3><Link to="/CBPC-1026-FinalPres-Website/about">Desarrollo del producto</Link></h3></Card.Title>
                             <Card.Body><p>todo lo relacionado al proceso seguido para fabricar este entregable</p>le</Card.Body>
                             <Card.Footer>
-                                <icon class="material-icons-round">
+                                <icon className="material-icons-round">
                                     info
                                 </icon>\
                             </Card.Footer>
