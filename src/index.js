@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import './index.css';
-import App from './pages/App';
 import Home from './pages/Home';
 import About from './pages/About';
 import Case from './pages/Case';
@@ -10,68 +9,40 @@ import Ayc from './pages/Ayc';
 import Refs from './pages/Refs';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import { Navbar, Nav, Container, Row, Card } from 'react-bootstrap';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
-    <Navbar bg="#21222c" expand="lg" sticky="top">
-      <Container id="navContainer">
-        <Navbar.Toggle id="navbarbutton" aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" >
-            <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/home">Introducción</Nav.Link>
-            <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/ayc">{"Arte & Ciencia"}</Nav.Link>
-            <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/case">Caso de estudio</Nav.Link>
-            <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/about">Desarrollo del producto</Nav.Link>
-            <Nav.Link className="nav-link" href="/CBPC-1026-FinalPres-Website/refs">Referencias</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-    {/* <Row>
-      <Card border="warning"
-        bg={"danger"}
-        key={"danger"}
-        text={'dark'}
-        style={{ width: '90rem' }}
-        className="mb-2">
-        <Card.Body>
-          <Card.Title style={{ color: "black", textAlign: "center" }}>Aclaración - Sitio no terminado</Card.Title>
-          <Card.Text style={{ color: "black", textAlign: "center" }}>
-            Este sitio continuará cambiando hasta la fecha de entrega del producto (2022-Jun-07)
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <br />
 
-    </Row> */}
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route exact path={"CBPC-1026-FinalPres-Website/"} element={<Home />}>
+        <Route exact path={"/"} element={<Home />}>
         </Route>
-        <Route exact path={"CBPC-1026-FinalPres-Website/default"} element={<App />}>
+        <Route path={"/default"} element={<Home />}>
 
         </Route>
-        <Route exact path={"CBPC-1026-FinalPres-Website/home"} element={<Home />}>
+        <Route path={"/home"} element={<Home />}>
 
         </Route>
-        <Route exact path={"CBPC-1026-FinalPres-Website/ayc"} element={<Ayc />}>
+        <Route path={"/ayc"} element={<Ayc />}>
 
         </Route>
-        <Route exact path={"CBPC-1026-FinalPres-Website/case"} element={<Case />}>
+        <Route path={"/case"} element={<Case />}>
 
         </Route>
-        <Route exact path={"CBPC-1026-FinalPres-Website/about"} element={<About />}>
+        <Route path={"/about"} element={<About />}>
 
         </Route>
-        <Route exact path={"CBPC-1026-FinalPres-Website/refs"} element={<Refs />}>
+        <Route path={"/refs"} element={<Refs />}>
 
         </Route>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
+
+  </React.StrictMode >
+
 );
 
 // If you want your app to work offline and load faster, you can change
