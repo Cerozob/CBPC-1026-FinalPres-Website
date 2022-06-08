@@ -1,21 +1,37 @@
 {
   "files": {
-    "main.css": "/CBPC-1026-FinalPres-Website/static/css/main.5b1db177.css",
-    "main.js": "/CBPC-1026-FinalPres-Website/static/js/main.560e4564.js",
+    "main.css": "/CBPC-1026-FinalPres-Website/static/css/main.14f90183.css",
+    "main.js": "/CBPC-1026-FinalPres-Website/static/js/main.f5e37238.js",
     "static/js/787.b47d8c00.chunk.js": "/CBPC-1026-FinalPres-Website/static/js/787.b47d8c00.chunk.js",
+    "static/media/roverstabilized.mp4": "/CBPC-1026-FinalPres-Website/static/media/roverstabilized.2909502acf1708b02fc6.mp4",
+    "static/media/japanmovementnew.mp4": "/CBPC-1026-FinalPres-Website/static/media/japanmovementnew.39a4bba526b27ac2d818.mp4",
+    "static/media/japanmovementold.mp4": "/CBPC-1026-FinalPres-Website/static/media/japanmovementold.5a847b9bee38b8602d4c.mp4",
+    "static/media/rovershaky.mp4": "/CBPC-1026-FinalPres-Website/static/media/rovershaky.f3e484ab38a7e8f22463.mp4",
+    "static/media/frameinterpolation.mp4": "/CBPC-1026-FinalPres-Website/static/media/frameinterpolation.4e5b86d301f85f314636.mp4",
+    "static/media/upscaling.mp4": "/CBPC-1026-FinalPres-Website/static/media/upscaling.25e6603b8e2d0a675a67.mp4",
+    "static/media/colorer.mp4": "/CBPC-1026-FinalPres-Website/static/media/colorer.3e782af56e43da5fb063.mp4",
+    "static/media/markiv_enhanced.jpg": "/CBPC-1026-FinalPres-Website/static/media/markiv_enhanced.0b3330c12501107edb3b.jpg",
+    "static/media/japannew.png": "/CBPC-1026-FinalPres-Website/static/media/japannew.7c3587a37bcb1d834431.png",
+    "static/media/japanlady.mp4": "/CBPC-1026-FinalPres-Website/static/media/japanlady.644c1a8ec33efaab16de.mp4",
+    "static/media/mynew.png": "/CBPC-1026-FinalPres-Website/static/media/mynew.b4b108e2c37b1c44a947.png",
+    "static/media/astronorm.png": "/CBPC-1026-FinalPres-Website/static/media/astronorm.30be7eda5c6874cbf307.png",
+    "static/media/astroresc.png": "/CBPC-1026-FinalPres-Website/static/media/astroresc.5ab8de41081012cba72e.png",
+    "static/media/japanold.png": "/CBPC-1026-FinalPres-Website/static/media/japanold.ebc6cdbc88b0cb4f5325.png",
+    "static/media/myold.png": "/CBPC-1026-FinalPres-Website/static/media/myold.439da852800ad78b8285.png",
+    "static/media/markiv.jpg": "/CBPC-1026-FinalPres-Website/static/media/markiv.b08f7abc108ad22f006e.jpg",
     "service-worker.js": "/CBPC-1026-FinalPres-Website/service-worker.js",
     "static/media/googlefonts.png": "/CBPC-1026-FinalPres-Website/static/media/googlefonts.ae55cdfc78ffa3d28b6d.png",
     "static/media/gizmodo.svg": "/CBPC-1026-FinalPres-Website/static/media/gizmodo.524c7834f9b15aacc175293e9c5e595d.svg",
-    "static/media/neurallove.svg": "/CBPC-1026-FinalPres-Website/static/media/neurallove.760f172231c58e1ae1241017dae8b719.svg",
+    "static/media/neurallove.svg": "/CBPC-1026-FinalPres-Website/static/media/neurallove.1401c5bf9a894baabd38bb4075885085.svg",
     "static/media/nvidia.svg": "/CBPC-1026-FinalPres-Website/static/media/nvidia.989c4e6e15e2c20d108d31c12f245ed0.svg",
     "index.html": "/CBPC-1026-FinalPres-Website/index.html",
     "static/media/wired.svg": "/CBPC-1026-FinalPres-Website/static/media/wired.a05f30e87972cd0a8d35c9bd7b2d8df5.svg",
-    "main.5b1db177.css.map": "/CBPC-1026-FinalPres-Website/static/css/main.5b1db177.css.map",
-    "main.560e4564.js.map": "/CBPC-1026-FinalPres-Website/static/js/main.560e4564.js.map",
+    "main.14f90183.css.map": "/CBPC-1026-FinalPres-Website/static/css/main.14f90183.css.map",
+    "main.f5e37238.js.map": "/CBPC-1026-FinalPres-Website/static/js/main.f5e37238.js.map",
     "787.b47d8c00.chunk.js.map": "/CBPC-1026-FinalPres-Website/static/js/787.b47d8c00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b1db177.css",
-    "static/js/main.560e4564.js"
+    "static/css/main.14f90183.css",
+    "static/js/main.f5e37238.js"
   ]
 }
