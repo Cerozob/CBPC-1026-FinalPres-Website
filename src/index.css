@@ -79,6 +79,7 @@ nav {
 	padding: 1rem;
 	margin: 1rem;
 	height: 90%;
+	border-color: hotpink !important;
 }
 
 a:hover {
@@ -106,4 +107,35 @@ div.card-footer {
 	margin-left: 0px;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
+}
+
+.refimage {
+	/* Style for the image */
+	width: auto;
+}
+
+.card-footer {
+	background-color: transparent !important;
+}
+
+.card-body {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.result {
+	margin-bottom: 5rem;
+}
+
+.videoComparison {
+	height: 100%;
+	width: 100%;
+}
+.comparervideo {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 5vh;
+	background-color: #000000;
 }
