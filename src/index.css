@@ -1,7 +1,12 @@
+@font-face {
+	font-family: Montserrat;
+	src: url(assets/Montserrat.ttf);
+}
+
 body,
 h4 {
 	margin: 0;
-	font-family: "Tenorite", sans-serif;
+	font-family: Montserrat, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #282a36 !important;
@@ -25,7 +30,7 @@ code {
 p,
 li,
 a {
-	font-family: "Tenorite";
+	font-family: Montserrat;
 	text-align: justify;
 	font-size: 1.2rem;
 }
@@ -51,9 +56,22 @@ h4 {
 	color: #ffffff;
 }
 
-a {
+a.nav-link,
+h3.ref-link,
+h3 > a {
 	color: hotpink !important;
 	font-weight: bold;
+	text-decoration: none !important;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a.nav-link-selected {
+	color: #f5f5f5 !important;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 nav {
@@ -80,6 +98,11 @@ nav {
 	margin: 1rem;
 	height: 90%;
 	border-color: hotpink !important;
+	mix-blend-mode: normal;
+}
+
+.mainCard.refCard:hover {
+	mix-blend-mode: difference;
 }
 
 a:hover {
